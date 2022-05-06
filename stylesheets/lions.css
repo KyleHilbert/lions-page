@@ -117,7 +117,7 @@ p.boldtext {
 .box {
     width: 250px;
     text-align: center;
-    border: 7px solid #F9FAF8;
+    border: 10px solid black;
     border-radius: 15px;
 }
 
@@ -155,7 +155,7 @@ p.random {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #E5E7EB;
+    background: #B0B7BC;
 }
 
 .quote {
@@ -186,7 +186,7 @@ p.random {
     padding-bottom: 50px;
     justify-content: center;
     align-items: center;
-    background: #F9FAF8;
+    background: #B0B7BC;
 }
 
 .bluebox{
@@ -247,7 +247,7 @@ p.random {
     padding-bottom: 30px;
     justify-content: center;
     align-items: center;
-    background: #1F2937;
+    background: #000000;
     color:#F9FAF8;
 }
 
