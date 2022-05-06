@@ -89,35 +89,40 @@ p.boldtext {
 .top {
     width: 500px;
     height: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
-.middle {
+.middle, .middle2 {
     display: flex;
     width: 1500px;
     height:250px;
     justify-content: space-around;
 }
 
-.bottom {
+.middle2 {
+    margin-top: 75px;
+}
+
+.bottom, .bottom2 {
     display: flex;
     width: 1500px;
-    height:70px;
+    height:100px;
+    margin-top: 5px;
     padding-top: 5px;
     justify-content: space-around;
     text-align: center;
     color: #F9FAF8;
 }
 
-.box1, .box2, .box3, .box4 {
+.box {
     width: 250px;
     text-align: center;
     border: 7px solid #F9FAF8;
     border-radius: 15px;
 }
 
-.text1, .text2, .text3, .text4 {
-    width: 200px;
+.text {
+    width: 250px;
     border-radius: 15px;
 }
 
@@ -131,10 +136,12 @@ p.random {
 .name {
     font-size: 22px;
     font-weight: bolder;
+    margin-bottom: 5px;
 }
 
 .rdpk, .school, .pos {
     font-size: 12px;
+    margin-bottom: 5px;
 }
 
 /*End of section2-container*/
