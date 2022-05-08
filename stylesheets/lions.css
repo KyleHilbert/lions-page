@@ -37,11 +37,17 @@ html {
 
 a, a:visited {
     text-decoration: none;
-    color: #E5E7EB
+    color: #E5E7EB;
+    border: 1px solid transparent;
+    border-width: 8px;
+    border-radius: 15px;
 }
 
 a:hover {
-    color: #0076B6;
+    border: 1px solid #0076B6;
+    border-width: 8px;
+    border-radius: 15px;
+    background-color: #0076B6;
 }
 
 /*End of nav-container*/
